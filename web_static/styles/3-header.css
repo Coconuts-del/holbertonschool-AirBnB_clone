@@ -1,0 +1,18 @@
+header{
+  background-color: white; 
+  background-image: url('../images/logo.png');
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  height: 70px;
+  width: 100%; 
+  border-bottom: 1px solid#CCCCCC;
+ }
+/*header::before{
+  content:"";
+  background-image: url('../images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px; 
+  height: 50px;
+  margin-left: 20px;
+}*/
