@@ -3,10 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
  }
- h1{
-    width: 100%;
-    /*margin-left: 15px;*/
-	 /*margin-bottom: 0px;*/ 
+
+ .places h1{
+    width: 100%;    
     font-size: 30px;   
  }
  article{
@@ -30,9 +29,9 @@
 article h2{
     text-align: center;
     font-size: 30px;
-    /*display: flex;
-    flex-direction: column;*/
-    margin:0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     padding-bottom: 10%;
  }  
 
@@ -51,7 +50,7 @@ article h2{
    right: 3%;
 }
 
-.max_guest .number_bathrooms .number_rooms{
+.max_guest, .number_bathrooms, .number_rooms{
    background-repeat: no-repeat;
    width: 100px;
    height: 100px;
@@ -71,4 +70,6 @@ article h2{
 .user{
    margin: 10px auto;
 }
-
+element.style {
+   margin-bottom: 100px;
+}
